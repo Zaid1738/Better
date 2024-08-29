@@ -10,7 +10,7 @@ body {
 }
 body {
     background-color: #e4e7df;
-    font-family: "gilroy";
+    font-family: sans-serif;
 }
 
 nav {
@@ -33,6 +33,7 @@ nav > ul {
     font-weight: 600;
 }
 
+
 nav ul li {
     padding-bottom: 5px;
     border-bottom: 1px solid transparent;
@@ -46,13 +47,12 @@ nav ul li:hover {
 }
 
 .page1 {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
 .content {
     padding: 10px 30px;
     width: 100%;
@@ -98,10 +98,19 @@ nav ul li:hover {
     height: 210px;
 }
 
-
-
 .page2{
-    width: 100vh;
-    height: 100vh;
-    background-color: rgb(77, 77, 128);
+    height: 100%;
+    width: 75%;
+    padding-top: 5%;
+    font-size: 25px;
+}
+
+.page2 h1{
+    padding-top: 5%;
+    padding-left: 2%;
+}
+
+.page2 > hr{
+    margin-top: 5%;
+    padding-left: 2%;
 }
