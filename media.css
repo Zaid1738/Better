@@ -1,0 +1,165 @@
+nav > i {
+    display: none;
+    font-size: 30px;
+}
+.filler {
+    height: 30vh;
+}
+@media (max-width: 600px){
+    nav{
+        padding: 10px 10px;
+    }
+
+    nav > i {
+        display: initial;
+    }
+
+    nav > ul {
+        display: none;
+    }
+    nav h1:last-of-type {
+        display: none;
+    }
+
+    .page1 > .content {
+        display: initial;
+    }
+
+    .page1 > .content > .left,
+    .page1 > .content > .right {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .page1 .left p {
+        width: inherit;
+    }
+    .page1 .left button {
+        width: max-content;
+    }
+    .page1 .right {
+        font-size: 30px;
+    }
+    .filler {
+        height: 10vh;
+    }
+
+    .page1 .slider-inside span {
+        font-size: 200px;
+    }
+
+    .page1 .slider-inside img {
+        height: 180px;
+    }
+
+    .page2 > p {
+        width: 100%;
+        font-size: 25px;
+    }
+    .page3 > .left h5{
+
+        width: 100%;
+        font-size:9px;
+    }
+    .page3 > .center{
+        margin-left: 17px;
+    }
+    .page3 > .center > .upper h1{
+        width: 100%;
+        font-size:20px;
+    }
+    .page3 > .center > .upper p{
+        width: 100%;
+        font-size:15px;
+    }
+
+    .page3 > .center > .middle h1{
+        width: 100%;
+        font-size:20px;
+    }
+    .page3 > .center > .middle p{
+        width: 100%;
+        font-size:15px;
+    }
+
+    .page3 > .center > .lower h1{
+        width: 100%;
+        font-size:20px;
+    }
+    .page3 > .center > .lower p{
+        width: 100%;
+        font-size:15px;
+    }
+
+    .page3 > .right h1{
+        width: 100%;
+        font-size:13px;
+    }
+
+    .page4{
+        height: 0vh;
+    }
+    .page4 > .nav4 > h1{
+        width: 100%;
+        font-size:15px;
+    }
+    .page4 > .nav4 > h2{
+        width: 100%;
+        font-size:15px;
+    }
+    .page4 > .nav4 > a{
+        width: 100%;
+        font-size:15px;
+    }
+    .page4 > .premium{
+        display:flex ;
+        justify-content: center;
+        /* height: 30%; */
+        padding-bottom: 15px;
+    }
+    .page4 > .premium h1{
+        /* width: 100%; */
+        font-size:100px;
+        letter-spacing: 13px; 
+    }
+    .page4 > .work{
+        display:flex ;
+        justify-content: center;
+    }
+    .page4 > .work h1{
+        /* width: 100%; */
+        font-size:100px;
+        letter-spacing: 5px;
+    }
+    .page4 > .work video{
+        width: 130px;
+    }
+    .page4 > .footer >{
+        padding-top: 0%;
+        position: absolute;
+    }
+    .page4 > .footer > .client{
+        font-size:15px;
+        position: absolute;
+        left: 0;
+        padding-left: 55px;
+    }
+    .page4 > .footer > .year{
+        font-size:15px;
+        position: absolute;
+        right: 0;
+        padding-right: 30px;  
+    }
+    .page5{
+        width: 100%;
+    }
+    .page5 > .nav5 h1{
+        font-size: 10px;
+    }
+    .page5 > .nav5 p{
+        font-size: 30px;
+    }
+    .page1 ,.page2,.page3.page4{
+        padding: 0px 10px;
+    }
+}
