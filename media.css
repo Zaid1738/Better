@@ -97,7 +97,7 @@ nav > i {
     }
 
     .page4{
-        height: 0vh;
+        height: 0vh;   
     }
     .page4 > .nav4 > h1{
         width: 100%;
@@ -114,11 +114,9 @@ nav > i {
     .page4 > .premium{
         display:flex ;
         justify-content: center;
-        /* height: 30%; */
         padding-bottom: 15px;
     }
     .page4 > .premium h1{
-        /* width: 100%; */
         font-size:100px;
         letter-spacing: 13px; 
     }
@@ -127,7 +125,6 @@ nav > i {
         justify-content: center;
     }
     .page4 > .work h1{
-        /* width: 100%; */
         font-size:100px;
         letter-spacing: 5px;
     }
@@ -153,13 +150,49 @@ nav > i {
     .page5{
         width: 100%;
     }
+    .page5 > .nav5 {
+        display: flex;
+    }
     .page5 > .nav5 h1{
-        font-size: 10px;
+        font-size: 13px;
+        padding-bottom: 0%;
     }
     .page5 > .nav5 p{
-        font-size: 30px;
+        top: 70px; ;
+        padding-left: 20%;
+        font-size: 20px;
     }
-    .page1 ,.page2,.page3.page4{
-        padding: 0px 10px;
+   
+    .page5 > h1{
+        font-size: 150px;
+        padding-left: 0;
+        text-decoration:10px underline;
+        text-align: center;
     }
+    .page6{
+        height: 70%;
+    }
+    .page6 > .box{
+        margin-left:6%;
+    }
+    .hrp6{
+        margin-top: 35%;
+        color: #e4e7df;
+    }
+    .page6  .box ol li{
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .page6  .box ol li button{
+        font-size: 20px;
+        height: 10vh;
+    }
+    .ri-add-line{
+        font-size: 20px;
+    }
+    .page6  .box >h1{
+        color: rgb(174, 166, 166);
+        font-size: 20px;
+    }
+
 }
